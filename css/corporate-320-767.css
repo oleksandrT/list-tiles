@@ -1,0 +1,157 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /* Navigation */
+    .navigation li a {
+        color: #3DACD1 !important;
+    }
+
+
+
+    .content-width {
+        margin: 30px auto;
+    }
+
+
+    .img-intro img {
+        margin: 0;
+    }
+
+    .container-intro {
+        height: auto;
+    }
+
+    .content-intro .inner-intro {
+        width: 80%;
+    }
+
+    .button-group-intro .inner-intro {
+        display: table;
+        table-layout: fixed;
+        border-spacing: 12px 0;
+    }
+
+    .inner-intro .btn-blue {
+        display: table-cell;
+    }
+
+    .nav-inpage {
+        margin-bottom: 0;
+    }
+
+    /* ===================== N-piece Tile ===================== */
+
+
+    .n-piece-tile .col-xs-6:nth-child(2n+1) {
+        clear: none;
+    }
+
+    /*.col-sm-4:nth-child(3n+1) {
+        clear: left;
+    }*/
+
+    .col-sm-12 h3 {
+        margin-top: 20px;
+    }
+
+    /* Copy Tile */
+    .container-copy-tile {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+
+    /* Footer */
+    .social-links li {
+        display: list-item;
+    }
+
+        .social-links li span {
+            display: inline;
+        }
+
+    /*Slider*/
+    .carousel .item img {
+        max-height: 360px;
+    }
+
+    /* ============ Slider =============*/
+
+    .carousel-control {
+        font-size: 25px;
+    }
+
+    .reasons .col-xs-6 {
+        margin-bottom: 18px;
+    }
+
+        .reasons .col-xs-6:nth-child(even) {
+            clear: both;
+        }
+
+    /* ===================== Video ===================== */
+    .reasons p {
+        line-height: 18px;
+    }
+
+    .video-container {
+        /*min-height: 200px;*/
+    }
+
+        .video-container.single-video, .video-container.double-video, .video-container .video-middle {
+            margin-left: 1%;
+        }
+
+    .double-video .col-xs-12 {
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ===================== List Top Image Tile ===================== */
+
+    .list-top-image {
+        overflow: hidden;
+    }
+
+    .list-top-image img {
+        width: 133.75%;
+        margin-left: -16.875%;
+    }
+
+    /* ===================== List Header Tile ===================== */
+    .list-header {
+        margin-top: 40px;
+        padding: 17px 21px;
+    }
+
+    .read-more-cut-line {
+        margin-top: 26px;
+    }
+
+    /* ===================== List Elements Tile ===================== */
+    .list-element {
+        padding-bottom: 17px;
+    }
+
+    .list-element-title, .list-element-date, .list-element-time, .list-element-link {
+        display: block;
+    }
+
+    .list-element-link {
+        display: none;
+    }
+
+    /* ===================== List Elements Description Tile ===================== */
+    .list-element-description-inner {
+        padding-top: 36px;
+        padding-bottom: 56px;
+    }
+
+}

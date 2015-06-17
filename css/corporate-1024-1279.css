@@ -1,0 +1,394 @@
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    /* Hide search form on screens wider that 768px */
+    #search {
+        display: none !important;
+    }
+
+    .menu-secondary-wrapper {
+        margin-top: 5px;
+    }
+
+    .logo > img {
+        width: 160px;
+    }
+
+    #top-menu ul.navbar-nav > li:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .subpanel {
+        left: 0;
+        top: 100%;
+        background: #ffffff;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0, rgba(239,240,241,1) 50%, rgba(255,255,255,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0, rgba(255,255,255,1)), color-stop(50%, rgba(239,240,241,1)), color-stop(100%, rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0, rgba(239,240,241,1) 50%, rgba(255,255,255,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0, rgba(239,240,241,1) 50%, rgba(255,255,255,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0, rgba(239,240,241,1) 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0, rgba(239,240,241,1) 50%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+    }
+
+    .subpanel-container {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .group-primary {
+        background: #fdfdfd;
+        background: rgba(253,253,253,0.15);
+        background: -moz-linear-gradient(left, rgba(253,253,253,0.15) 0, rgba(205,205,205,0.15) 50%, rgba(253,253,253,0.15) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0, rgba(253,253,253,0.15)), color-stop(50%, rgba(205,205,205,0.15)), color-stop(100%, rgba(253,253,253,0.15)));
+        background: -webkit-linear-gradient(left, rgba(253,253,253,0.15) 0, rgba(205,205,205,0.15) 50%, rgba(253,253,253,0.15) 100%);
+        background: -o-linear-gradient(left, rgba(253,253,253,0.15) 0, rgba(205,205,205,0.15) 50%, rgba(253,253,253,0.15) 100%);
+        background: -ms-linear-gradient(left, rgba(253,253,253,0.15) 0, rgba(205,205,205,0.15) 50%, rgba(253,253,253,0.15) 100%);
+        background: linear-gradient(to right, rgba(253,253,253,0.15) 0, rgba(205,205,205,0.15) 50%, rgba(253,253,253,0.15) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#fdfdfd', GradientType=1 );
+    }
+
+    .menu-primary {
+        text-align: center;
+        float: none;
+    }
+
+        .menu-primary li {
+            display: inline-block;
+            float: none;
+            margin-right: -3px;
+        }
+
+        .menu-primary > li > a {
+            font-size: 16px;
+            padding: 12px 16px;
+        }
+
+    .menu-secondary {
+        margin-top: 11px;
+    }
+
+        .menu-secondary > li > a {
+            font-size: 12px;
+            padding: 7px 15px;
+        }
+
+    .menu-primary .subpanel {
+        padding-top: 40px;
+    }
+
+    .menu-secondary .subpanel {
+        left: 0;
+        width: auto;
+    }
+
+    .item-primary .subpanel li {
+        width: 20%;
+        margin-right: -4px;
+    }
+
+    .subpanel li.closesubpanel {
+        display: none;
+    }
+
+    .subpanel li img {
+        width: 177px;
+    }
+
+    .search-form-desktop {
+        margin-top: 18px;
+    }
+
+        .search-form-desktop input {
+            border: 0;
+            color: #231F20;
+            height: 20px;
+            font-size: 11px;
+            padding: 6px 35px 6px 15px;
+            background-color: #f2f3f4;
+            -webkit-border-radius: 20px !important;
+            -moz-border-radius: 20px !important;
+            border-radius: 20px !important;
+            -webkit-box-shadow: 0 1px 0 #000000 inset;
+            -webkit-box-shadow: 0 1px 0 #000000 inset;
+            -moz-box-shadow: 0 1px 0 #000000 inset;
+            -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 1px 0 #000000 inset;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+        }
+
+    .search-form-desktop .btn {
+            background-color: transparent;
+            border-color: transparent;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 99999;
+            height: 20px;
+            padding: 1px 8px;
+            line-height: 5px;
+        }
+
+            .search-form-desktop .btn .glyphicon-search {
+                font-size: 8px;
+                color: #A52B5C;
+            }
+    /* End of Navigation */
+
+    .content-width {
+        margin: 40px auto;
+    }
+
+    .content-intro .inner-intro {
+        width: 60%;
+    }
+
+    .button-group-intro .inner-intro {
+        width: 50%;
+    }
+
+    /* Copy Tile */
+    .container-copy-tile {
+        max-width: 57.8%;
+        margin: 0 auto;
+    }
+
+    .container-copy-tile-1-of-2 {
+        max-width: 260px;
+        margin: 235px auto 0;
+    }
+
+    .wrapper-copy-tile {
+        min-height: 560px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    /* ===================== In-page navigation ===================== */
+    .nav-inpage li {
+        width: 159px;
+    }
+
+
+    /* =================== Intro Tile ============================== */
+
+    .pos-relative {
+        position: relative;
+        display: block;
+    }
+
+    .padding-none {
+        padding: 0 !important;
+    }
+
+    .intro-text-top {
+       margin: 4% auto 0 auto;
+       width: 51.4%;
+    }
+
+    .background-responsive {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro-banner {
+        min-height: 608px;
+    }
+
+    .intro-banner-buttons {
+        min-height: 608px;
+    }
+
+    .intro-button {
+        max-width: 215px;
+        width: 215px;
+        display: inline-block;
+    }
+
+    .intro-buttons {
+        margin: 74% auto 0 auto;
+    }
+
+    .intro-btn-margin {
+        margin-right: 32px;
+    }
+
+     .intro-text-white-line, .intro-white-line {
+        min-height: 164px;
+    }
+
+     .intro-text-white-line {    
+        width: 62%;
+        left: 17%;
+    }    
+
+    /*Slider*/
+    .carousel .item img {
+        max-height: 600px;
+	}
+
+    /* ===================== N-piece Tile ===================== */
+    .small-header {
+        font-size: 11px;
+        margin-bottom: 20px;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .reasons {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .reasons .col-sm-2 {
+        margin-left: 3%;
+    }
+
+    .n-piece-item p {
+        font-size: 14px;
+    }
+
+    .n-piece-item p.contact-form-head {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+    /* ===================== Footer ===================== */
+    .footer-links-group {
+        border-top: none;
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .social-links li {
+        display: list-item;
+    }
+
+    footer h4 {
+        margin-top: 0;
+    }
+
+    .padding-footer {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .copyrights {
+        padding-bottom: 45px;
+    }
+
+
+    .carousel-control {
+        font-size: 40px;
+	}
+
+    .footer-map {
+        margin: 0 auto;
+        max-width: 236px;
+    }
+
+    .video-container.double-video div:first-child {
+        margin-left: 30%;
+    }
+
+
+
+
+    /* ===================== List Header Tile ===================== */
+    .list-header {
+        margin-top: 48px;
+        padding: 17px 18px 18px;
+    }
+
+    .list-header .location {
+        margin-top: 18px;
+    }
+
+    .list-header .description {
+        width: 54%;
+        margin-top: 16px;
+    }
+
+    .read-more-cut-line {
+        margin-top: 16px;
+        margin-bottom: 6px;
+    }
+
+    /* ===================== List Elements Tile ===================== */
+    .list-element {
+        padding: 8px 17px;
+    }
+
+    .list-element-title {
+        width: 37.6%;
+    }
+
+    .list-element-date {
+        width: 20%;
+    }
+
+    .list-element-time {
+        width: 18.5%;
+    }
+
+    .list-element-link {
+        display: inline-block;
+    }
+
+    /* ===================== List Elements Description Tile ===================== */
+    .list-element-description {
+        padding-bottom: 19px;
+        padding-top: 19px;
+        margin-top: 8px;
+    }
+
+    .list-element-description-inner {
+        padding-top: 25px;
+        padding-bottom: 56px;
+    }
+
+    .list-element-description-content {
+        width: 63%;
+    }
+
+    .list-element-description-inner h3 {
+        margin-bottom: 16px;
+    }
+
+    .list-element-expanded .list-element-info::after {
+        bottom: -48px;
+        left: 85%;
+    }
+
+     /* ===================== List Filter Tile ===================== */
+    .list-filter-inner {
+        padding-top: 22px;
+        padding-bottom: 26px;
+    }
+
+    .list-filter Label {
+        margin-bottom: 12px;
+    }
+
+    .list-filter .filter-search-button {
+        width: 20%;
+        float: left;
+        height: 41px;
+        margin-top: 32px;
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .list-filter .form-group {
+        padding-right: 3%;
+        margin-bottom: 0;
+    }
+
+
+}
